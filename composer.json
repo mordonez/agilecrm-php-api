@@ -1,0 +1,24 @@
+{
+    "name": "mordonez/agilecrm-php-api",
+    "description": "PHP Client to access Agile CRM Functionality.",
+    "keywords": ["agilecrm", "composer", "package", "api"],
+    "license": "DBAD",
+    "authors": [
+        {
+            "name": "Miguel Ordoñez",
+            "email": "mordonez.sanchez@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "AgileCRM\\": "src/"
+        }
+    }
+}
